@@ -1,12 +1,8 @@
 body {
-  font: 15px/1.5 Arial, Helvetica,sans-serif;
-  padding:0;
-  margin:0;
-  background-color:#f4f4f4;
-  background-image: url("C:\Users\Ευα\Desktop\our-site\img\acdctheband.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	 background-color:#f4f4f4;
 }
 
 body h1{
@@ -32,6 +28,14 @@ body p{
 	text-indent: 50px;
 	font-family: "Lucida Console", Lucida, monospace;
 	font-size: 17px;
+}
+
+table img{
+	width: 200px;
+	
+}
+table h3{
+	text-decoration: normal;
 }
 /* Global */
 .container{
