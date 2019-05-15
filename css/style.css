@@ -1,10 +1,38 @@
-body{
+body {
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
   background-color:#f4f4f4;
+  background-image: url("C:\Users\Ευα\Desktop\our-site\img\acdctheband.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
+body h1{
+	border-bottom: 3px solid #B68550;
+	width:30%;
+	font-size:45px;
+	text-align: center;
+	font-family: "Lucida Console", Lucida, monospace;
+	text-shadow: 4px 2px #B68550;
+}
+
+body h3{
+	text-decoration: underline;
+	font-family: "Lucida Console", Lucida, monospace;
+	font-size: 27px;
+}
+
+body h4{
+	font-size: 18px;
+	line-height: 0.3;
+}
+body p{
+	text-indent: 50px;
+	font-family: "Lucida Console", Lucida, monospace;
+	font-size: 17px;
+}
 /* Global */
 .container{
   width:80%;
@@ -100,8 +128,8 @@ header a:hover{
 /* Newsletter */
 #newsletter{
   padding:15px;
-  color:#B68550	;
-  background:#210606;
+  color:#210606	;
+  background:#B68550;
 }
 
 #newsletter h1{
@@ -147,12 +175,12 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
   padding:5px;
 }
 
-/* Main-col */
+/* Main-col Body*/
 article#main-col{
   float:left;
   width:65%;
+  color:#8e3737;
 }
-
 
 footer{
   padding:20px;
